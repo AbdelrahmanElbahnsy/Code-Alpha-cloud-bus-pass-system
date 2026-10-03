@@ -1,0 +1,25 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+.env.local
+
+# Sensitive Credentials
+firebase.json
+serviceAccountKey.json
+
+# System Files
+.DS_Store
+Thumbs.db
+# 🔐 Secrets
+*.pem
